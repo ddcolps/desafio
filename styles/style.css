@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --first-color: #E5E5E5;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--first-color);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.left-panel {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    gap: 80px;
+}
